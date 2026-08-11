@@ -1,8 +1,7 @@
 name: Leetcode Sync
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 17 * * *" 
+  schedule: 
 jobs:
   build:
     runs-on: ubuntu-latest
